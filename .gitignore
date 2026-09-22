@@ -1,0 +1,22 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# PyCharm settings
+.idea/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Trained models and generated results
+saved_models/
+results/
+
+# Local datasets: exclude everything except our small demo
+data/*
+!data/PS1_demo.csv
+
+# Mac system files
+.DS_Store
